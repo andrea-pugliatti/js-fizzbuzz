@@ -16,4 +16,9 @@ for (let i = 1; i <= 100; i++) {
 		message += "Buzz";
 	}
 	// Stampo la stringa e l'indice
+	if (message.length === 0) {
+		console.log(i);
+	} else {
+		console.log(message);
+	}
 }
