@@ -24,7 +24,9 @@ for (let i = 1; i <= 100; i++) {
 
 // Soluzione alternativa
 // Loop che va da 1 a 100
-// Se il numero è divisibile per 3 e per 5 stampo "FizzBuzz"
-// Sennò se il numero è divisibile per 3 stampo "Fizz"
-// Sennò se il numero è divisibile per 5 stampo "Buzz"
-// Sennò stampo il numero
+for (let i = 1; i <= 100; i++) {
+	// Se il numero è divisibile per 3 e per 5 stampo "FizzBuzz"
+	// Sennò se il numero è divisibile per 3 stampo "Fizz"
+	// Sennò se il numero è divisibile per 5 stampo "Buzz"
+	// Sennò stampo il numero
+}
