@@ -3,7 +3,11 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 // Inizializzo una variabile stringa di appoggio
+let message = "";
+
 // Loop che va da 1 a 100
-// Se il resto di i % 3 è 0 allora aggiungo Fizz alla variabile stringa
-// Se il resto di i % 5 è 0 allora aggiungo Buzz alla variabile stringa
-// Stampo la stringa e l'indice
+for (let i = 1; i <= 100; i++) {
+	// Se il resto di i % 3 è 0 allora aggiungo Fizz alla variabile stringa
+	// Se il resto di i % 5 è 0 allora aggiungo Buzz alla variabile stringa
+	// Stampo la stringa e l'indice
+}
