@@ -2,11 +2,10 @@
 // stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
-// Inizializzo una variabile stringa di appoggio
-let message = "";
-
 // Loop che va da 1 a 100
 for (let i = 1; i <= 100; i++) {
+	// Inizializzo una variabile stringa di appoggio
+	let message = "";
 	// Se il resto di i % 3 è 0 allora aggiungo Fizz alla variabile stringa
 	if (i % 3 === 0) {
 		message += "Fizz";
