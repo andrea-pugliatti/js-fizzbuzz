@@ -23,10 +23,20 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // Soluzione alternativa
+
 // Loop che va da 1 a 100
 for (let i = 1; i <= 100; i++) {
-	// Se il numero è divisibile per 3 e per 5 stampo "FizzBuzz"
-	// Sennò se il numero è divisibile per 3 stampo "Fizz"
-	// Sennò se il numero è divisibile per 5 stampo "Buzz"
-	// Sennò stampo il numero
+	if (i % 3 === 0 && i % 5 === 0) {
+		// Se il numero è divisibile per 3 e per 5 stampo "FizzBuzz"
+		console.log("FizzBuzz");
+	} else if (i % 3 === 0) {
+		// Sennò se il numero è divisibile per 3 stampo "Fizz"
+		console.log("Fizz");
+	} else if (i % 5 === 0) {
+		// Sennò se il numero è divisibile per 5 stampo "Buzz"
+		console.log("Buzz");
+	} else {
+		// Sennò stampo il numero
+		console.log(i);
+	}
 }
