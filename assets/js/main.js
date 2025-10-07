@@ -8,6 +8,12 @@ let message = "";
 // Loop che va da 1 a 100
 for (let i = 1; i <= 100; i++) {
 	// Se il resto di i % 3 è 0 allora aggiungo Fizz alla variabile stringa
+	if (i % 3 === 0) {
+		message += "Fizz";
+	}
 	// Se il resto di i % 5 è 0 allora aggiungo Buzz alla variabile stringa
+	if (i % 5 === 0) {
+		message += "Buzz";
+	}
 	// Stampo la stringa e l'indice
 }
